@@ -9,6 +9,7 @@
     }
 
     form.onsubmit = function(event) {
+        
         event.preventDefault();
         let city = cityInput.value.trim();
 
